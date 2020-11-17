@@ -19,6 +19,7 @@
 		E760059A2562FBC1009F1A6B /* MyChildrenInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E76005982562FBC1009F1A6B /* MyChildrenInfoCell.xib */; };
 		E760059E2562FDDA009F1A6B /* AddChildrenInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E760059C2562FDDA009F1A6B /* AddChildrenInfoCell.swift */; };
 		E760059F2562FDDA009F1A6B /* AddChildrenInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E760059D2562FDDA009F1A6B /* AddChildrenInfoCell.xib */; };
+		E76005A325640B91009F1A6B /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76005A225640B91009F1A6B /* PersonModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		E76005982562FBC1009F1A6B /* MyChildrenInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyChildrenInfoCell.xib; sourceTree = "<group>"; };
 		E760059C2562FDDA009F1A6B /* AddChildrenInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChildrenInfoCell.swift; sourceTree = "<group>"; };
 		E760059D2562FDDA009F1A6B /* AddChildrenInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddChildrenInfoCell.xib; sourceTree = "<group>"; };
+		E76005A225640B91009F1A6B /* PersonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,16 +70,9 @@
 		E760057A2562EB57009F1A6B /* test */ = {
 			isa = PBXGroup;
 			children = (
-				E760057B2562EB57009F1A6B /* AppDelegate.swift */,
-				E760057D2562EB57009F1A6B /* SceneDelegate.swift */,
-				E760058F2562EB7D009F1A6B /* TableViewController.swift */,
-				E76005812562EB57009F1A6B /* Main.storyboard */,
-				E76005842562EB58009F1A6B /* Assets.xcassets */,
-				E76005862562EB58009F1A6B /* LaunchScreen.storyboard */,
 				E76005892562EB58009F1A6B /* Info.plist */,
-				E760059B2562FDB3009F1A6B /* AddChildrenInfoCell */,
-				E76005962562FB9F009F1A6B /* MyChildrenInfoCell */,
-				E76005952562FA84009F1A6B /* InputInfoCell */,
+				E76005A025640B68009F1A6B /* Other */,
+				E76005A125640B72009F1A6B /* MainModule */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -107,6 +102,38 @@
 				E760059D2562FDDA009F1A6B /* AddChildrenInfoCell.xib */,
 			);
 			path = AddChildrenInfoCell;
+			sourceTree = "<group>";
+		};
+		E76005A025640B68009F1A6B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				E760057B2562EB57009F1A6B /* AppDelegate.swift */,
+				E760057D2562EB57009F1A6B /* SceneDelegate.swift */,
+				E76005842562EB58009F1A6B /* Assets.xcassets */,
+				E76005862562EB58009F1A6B /* LaunchScreen.storyboard */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		E76005A125640B72009F1A6B /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				E76005A425640BAB009F1A6B /* Cells */,
+				E76005812562EB57009F1A6B /* Main.storyboard */,
+				E760058F2562EB7D009F1A6B /* TableViewController.swift */,
+				E76005A225640B91009F1A6B /* PersonModel.swift */,
+				E760059B2562FDB3009F1A6B /* AddChildrenInfoCell */,
+				E76005962562FB9F009F1A6B /* MyChildrenInfoCell */,
+				E76005952562FA84009F1A6B /* InputInfoCell */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		E76005A425640BAB009F1A6B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +214,7 @@
 				E76005932562EFED009F1A6B /* InputInfoCell.swift in Sources */,
 				E760057E2562EB57009F1A6B /* SceneDelegate.swift in Sources */,
 				E76005902562EB7D009F1A6B /* TableViewController.swift in Sources */,
+				E76005A325640B91009F1A6B /* PersonModel.swift in Sources */,
 				E760059E2562FDDA009F1A6B /* AddChildrenInfoCell.swift in Sources */,
 				E76005992562FBC1009F1A6B /* MyChildrenInfoCell.swift in Sources */,
 			);

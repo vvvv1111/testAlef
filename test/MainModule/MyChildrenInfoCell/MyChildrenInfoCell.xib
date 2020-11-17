@@ -32,6 +32,9 @@
                                     <constraint firstAttribute="width" constant="26" id="ADu-DP-pMz"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="xmark.rectangle" catalog="system"/>
+                                <connections>
+                                    <action selector="deletePersonInfo:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="IbM-gy-OIQ"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gph-eS-XhQ">
                                 <rect key="frame" x="92" y="11" width="42" height="21"/>

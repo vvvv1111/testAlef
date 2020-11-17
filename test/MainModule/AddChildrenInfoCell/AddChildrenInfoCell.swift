@@ -8,8 +8,16 @@
 
 import UIKit
 
+protocol AddChildrenInfoCellDelegate {
+    func addperson()
+}
+
 class AddChildrenInfoCell: UITableViewCell {
 
+    
+    var delegate: AddChildrenInfoCellDelegate?
+
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -17,8 +25,9 @@ class AddChildrenInfoCell: UITableViewCell {
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    }
+    @IBAction func addPersonButton(_ sender: Any) {
+        delegate?.addperson()
     }
     
 }
